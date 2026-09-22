@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --color-brand-navy-950: #040812;
+  --color-brand-navy-900: #060c1a;
+  --color-brand-navy-800: #0b152b;
+  --color-brand-navy-700: #101e3d;
+  --color-brand-gold-500: #d4af37;
+  --color-brand-gold-400: #e5c158;
+  --color-brand-gold-600: #b58d20;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #060c1a;
+  color: #f1f5f9;
+  overflow-x: hidden;
+}
+
+.font-heading {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.02em;
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #fef08a 0%, #d4af37 55%, #b5891a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.18);
+}
